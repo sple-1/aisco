@@ -11,4 +11,8 @@
 	<feature name="DirectPayment"/>
 	<feature name="PaymentGateway"/>
 	<feature name="BankTransfer"/>
+	<feature name="CreditCard"/>
+	<feature name="VirtualAccount"/>
+	<feature name="Article"/>
+	<feature name="ArticleWithCategory"/>
 </configuration>

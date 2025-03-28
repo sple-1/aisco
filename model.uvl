@@ -17,6 +17,11 @@ features
 				alternative
 					DirectPayment
 					PaymentGateway
-						optional
+						or
 							BankTransfer
+							CreditCard
+							VirtualAccount
+			Article
+				optional
+					ArticleWithCategory
 
