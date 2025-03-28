@@ -18,7 +18,8 @@ public class DonationImpl extends DonationComponent {
     }
 
     public void getDonation(){
-        System.out.println(Arrays.asList(donationList));
+        System.out.println("\nDonation via AISCO");
+        System.out.println(donationList);
     }
 
     public void addDonation(){

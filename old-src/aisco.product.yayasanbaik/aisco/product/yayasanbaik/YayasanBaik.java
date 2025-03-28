@@ -1,13 +1,12 @@
-package aisco.product.hilfuns;
+package aisco.product.yayasanbaik;
 import aisco.program.core.Program;
 import aisco.program.ProgramFactory;
 import aisco.financialreport.core.FinancialReport;
 import aisco.financialreport.FinancialReportFactory;
-import payment.product.charity.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hilfe {
+public class YayasanBaik {
     private static final int INDEX_DISASTER = 0;
     private static final int INDEX_MEDICINE = 1;
 
@@ -36,7 +35,7 @@ public class Hilfe {
 
 
     public static void main(String[] args) {
-        System.out.println("Product Hilfuns");
+        System.out.println("Product Yayasan Baik");
         List<Program> programs = addProgram();
         System.out.println(programs);
         
@@ -45,7 +44,6 @@ public class Hilfe {
         System.out.println(incomes);
         int totalincome = ((aisco.financialreport.income.FinancialReportImpl)income1).total(incomes);
 
-        PaymentCharity charity = new PaymentCharity();
         System.out.println("Balance: "+totalincome);
       
     }

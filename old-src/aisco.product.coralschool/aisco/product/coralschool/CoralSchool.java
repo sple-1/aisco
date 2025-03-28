@@ -1,4 +1,4 @@
-package aisco.product.charityschool;
+package aisco.product.coralschool;
 
 import aisco.program.core.Program;
 import aisco.program.ProgramFactory;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class CharitySchool {
+public class CoralSchool {
     private static final int INDEX_SCHOOL = 0;
     private static final int INDEX_LIBRARY = 1;
     private static final int INDEX_ELECTRICITY = 2;
@@ -54,13 +54,13 @@ public class CharitySchool {
 
     public static void addDonation()
     {  
-        Donation donate = DonationFactory.createDonation("aisco.donation.pgateway.DonationImpl");
+        Donation donate = DonationFactory.createDonation("aisco.donation.creditcard.DonationImpl");
         donate.addDonation();
         donate.getDonation();
     }
 
     public static void main(String[] args) {
-        System.out.println ("Product Charity School");
+        System.out.println ("Product Coral School");
         List<Program> programs = addProgram();
         System.out.println(programs);
         
