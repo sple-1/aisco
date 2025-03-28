@@ -17,4 +17,8 @@ features
 				alternative
 					DirectPayment
 					PaymentGateway
+						or
+							VirtualAccount
+							CreditCard
+							BankTransfer
 
